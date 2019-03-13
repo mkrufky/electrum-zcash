@@ -22,7 +22,6 @@ rm $PYINSTALLER_TAG.tar.gz
 wine pip install eth-hash==0.1.2
 wine pip install -r contrib/zcash/requirements.txt
 
-wine pip install x11_hash
 wine pip install cython
 wine pip install hidapi
 wine pip install pycryptodomex==3.6.0
