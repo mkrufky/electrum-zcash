@@ -19,8 +19,9 @@ wget https://github.com/zebra-lucky/pyinstaller/archive/$PYINSTALLER_TAG.tar.gz
 wine pip install $PYINSTALLER_TAG.tar.gz
 rm $PYINSTALLER_TAG.tar.gz
 
-wine pip install -I eth-hash==0.1.2
 wine pip install -r contrib/zcash/requirements.txt
+wine pip install -I eth-hash==0.1.2
+wine pip install -I eth-utils==1.0.3
 
 wine pip install cython
 wine pip install hidapi
