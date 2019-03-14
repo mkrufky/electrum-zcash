@@ -17,7 +17,7 @@ wine pip install -r contrib/zcash/requirements.txt
 wine pip install --upgrade pip==18.1
 wine pip install PyInstaller==3.4
 
-wine pip install cython
+wine pip install cython=0.29.3
 wine pip install hidapi
 wine pip install pycryptodomex==3.6.0
 wine pip install btchip-python==0.1.26
