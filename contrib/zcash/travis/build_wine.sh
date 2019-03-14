@@ -22,6 +22,9 @@ wine pip install hidapi
 wine pip install pycryptodomex==3.6.0
 wine pip install btchip-python==0.1.26
 wine pip install keepkey==4.0.2
+
+wine pip install eth-utils==1.0.2
+wine pip install eth-hash==0.1.0
 wine pip install trezor==0.9.1
 
 mkdir $WINEPREFIX/drive_c/Qt
